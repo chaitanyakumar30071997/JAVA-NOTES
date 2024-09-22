@@ -1,0 +1,21 @@
+                            Method Overloading:-
+Method overloading allows us to define multiple methods with the same name in a class, but with 
+different parameter lists. There are two primary ways to achieve method overloading:
+
+Different Numbers of Arguments:-
+You can implement two or more methods with the same name but different numbers of arguments.
+
+In this example, the multiply method is overloaded to handle different argument counts.
+
+
+
+
+                                     Method Overriding
+*  Method overriding occurs when a subclass (child class) provides a specific implementation for a method 
+   that is already declared in its parent class (superclass). Here are the key points about method overriding:
+
+*  The method in the subclass must have the same name, same parameter list, and an IS-A relationship with 
+   the method in the parent class.
+*  When you call an overridden method using an object of the subclass type, Java uses the method’s 
+   implementation in the subclass rather than the one in the superclass.
+*  Method overriding is essential for achieving runtime polymorphism.
