@@ -1,0 +1,16 @@
+                                      ENCAPSULATION
+                                      
+1. ENCAPSULATION:
+
+      Holding the data into single entity is nothing but encapsulation.
+
+2. How to achieve:
+
+     we can achieve Data (or) Model (or) POJO class . The class which is having the data members and does 
+     not have the declaration. POJO stands for Plain Old Java Object 
+
+* We should have the setters and getters for the data members.
+
+* this.id ---->” this”  is one of the reserved word in java. which helps to set the value to the data
+    members (with in the class only).                                      
+

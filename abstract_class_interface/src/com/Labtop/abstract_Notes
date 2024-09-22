@@ -1,0 +1,36 @@
+                                       Abstract
+
+  -->	Abstraction is nothing but hiding the implementation . We can achieve the abstraction using
+         the abstract class and interface.
+
+INTERFACE:
+
+    -->  Blueprint of the class is nothing but interface which you have only method declaration 
+        and doesn’t have the method implementation .We used to called them as abstract class.
+
+***ABSTRACT METHOD:
+
+    -->  The method which is having the abstract keyword and doesn't have the implementation is 
+        called abstract method.
+
+***Note1:
+
+    -->  When we write abstract method in interface we no need to add the abstract keyword As 
+       interface includes abstract keyword for all the methods.
+
+***Note2:
+
+   --> If a class implements the interface all the methods which is present inside the interface
+       has to be implemented.
+
+
+ABSTRACT CLASS:
+
+   -->  The class which is having the abstract keyword is called  abstract class. It contains
+        both abstract and non-abstract methods. Normal classes will not allow to write 
+        abstract methods inside the class.
+
+* Note:
+
+   -->   If a class extends the abstract class it is mandatory to implement all abstract 
+         methods in the implemented class

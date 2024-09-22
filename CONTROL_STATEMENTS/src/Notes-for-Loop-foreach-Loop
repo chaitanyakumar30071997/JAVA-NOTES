@@ -1,0 +1,21 @@
+1. for Loop
+   Definition: The for loop is used to execute a block of code a specific number of times. It is useful
+    when you know beforehand how many times you need to repeat a task.
+    
+for (initialization; condition; update) {
+    // code to be executed
+}
+
+2. for each Loop (Enhanced for Loop)
+
+        Definition: The for each loop, also known as the enhanced for loop, is used to iterate over elements 
+        in a collection or array. It is simpler and cleaner when you just need to traverse the entire 
+         collection or array.    
+         
+         for (type element : collection) {
+    // code to be executed
+}
+
+* Both loops are essential for iterating through data, with for loops offering more control over the 
+   iteration process and for each loops providing a more concise way to iterate over collections and arrays.
+
