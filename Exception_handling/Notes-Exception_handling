@@ -1,0 +1,18 @@
+try block: This is where you put the code that might misbehave. It’s like saying, “Hey, Java, keep an eye 
+on this part.”
+
+
+catch block: When an exception happens in the try block, the catch block swoops in to save the day.
+ It catches the exception and deals with it. Think of it as your program’s superhero.
+ 
+ 
+finally block: This block always executes, whether an exception occurred or not. It’s like the janitor who 
+cleans up after the party, no matter how wild things got.
+
+
+
+Checked exception :-  compile time exception
+
+UnChecked :- Run time exception
+
+

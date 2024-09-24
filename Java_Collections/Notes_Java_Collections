@@ -1,0 +1,94 @@
+                                         Java Collections
+                                         
+*  Collections are used for data manipulation, enabling operations like Create, Update, Read, and Delete (CRUD).                                        
+
+* Collection (Interface)
+
+Package: java.util
+
+Purpose: Provides methods for data manipulation, such as add, remove, clear, etc.
+
+* Iterable (Interface)
+
+Package: java.lang
+
+Purpose: Allows objects to be iterated over, facilitating access to elements.
+
+* Iterator (Interface)
+
+Purpose: Provides methods for iterating through a collection, such as hasNext() and next(). 
+
+* List (Interface)
+
+Purpose: Stores multiple values, including duplicates and null values.
+
+Implementation Classes: ArrayList, LinkedList, Vector
+
+* Queue (Interface)
+
+Purpose: Stores elements in a FIFO (First In, First Out) manner.
+
+* Set (Interface)
+
+Purpose: Stores only unique values, excluding duplicates.
+
+--> List Implementations
+
+1. ArrayList
+           
+       Implementation:-   ArrayList is implemented as a resizable array. As you add more elements to an 
+       ArrayList,its size dynamically increases.
+        
+        Access Performance:-  You can directly access elements using the get and set methods because ArrayList
+        is essentially an array.
+        
+        Thread Safety:-   ArrayList is not synchronized, which means it’s not thread-safe by default.
+        
+        Usage Recommendation:-    Use ArrayList when your program doesn’t require thread safety and you want 
+         efficient random access to elements.
+        
+        
+    
+2. LinkedList
+
+ * Description: Implements the List interface using a doubly linked list.
+
+    *Features: 
+
+        1. Supports duplicate and null values.
+
+        2. Node-based storage.
+
+        3. Good for frequent insertion and deletion operations.
+
+        4. Slower for retrieval operations due to node traversal. 
+        
+3. Vector
+
+*  Description: Implements the List interface using an array, similar to ArrayList, but synchronized.
+
+  *Features:
+
+        1. Supports duplicate and null values.
+
+        2. Synchronized, making it thread-safe.
+
+        3.Increases size by 100% when full.
+        
+
+**** Java collections also interface 
+       
+**** List is interface extends collections        
+
+*** class implements list 
+
+   Type of class- 
+  1. Array List
+  2. Linked List 
+  3.  vector 
+
+**** List allows Non values , Duplicate are values , multiple values
+
+
+
+           
